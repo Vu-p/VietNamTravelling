@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.book-container a {
+    color: black;
+    text-decoration: none;
+    line-height: 100px;
+    padding: 0px 12px;
+    font-size: 24px;
+    font-weight: 40px;
+    text-transform: uppercase;
+}
+.book-container button {
+    border: 1px solid #fff;
+    background-color: rgb(240, 61, 61);
+    padding: 4px 16px;
+    border-radius: 12px;
+    position: relative;
+    bottom: 10px;
+    cursor: pointer;
+}
+.book-container nav {
+    margin: 0 150px;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+.book-container .book-content {
+    position: relative;
+    height: 900px;
+    background: url(../img/hotel.jpg) top center / cover no-repeat;
+    border-radius: 0 200px 0 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.book-content h1 {
+    position: relative;
+    bottom: 30%;
+    font-weight: 400;
+    font-size: 60px;
+    text-shadow: 10px 10px 4px rgba(0, 0, 0, 0.4);
+    right: -7%;
+}
+.hotel-nav {
+    position: relative;
+    right: 32%;
+    top: 13%;
+    z-index: 100;
+}
+.hotel-btn {
+    border-radius: 40px 0 40px 0 !important;
+    margin: 0 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+#hotel-booked-btn {
+    font-size: 10px;
+    background-color: black;
+    color: #fff;
+    line-height: 14px;
+    padding-top: 14px;
+    border: 1px solid #000;
+    box-shadow: 4px 3px 2px 0px rgb(0 0 0 / 74%);
+}
+#hotel-btn {
+    width: 130px;
+    height: 46px;
+    background-color: #F2E8CC;
+    color: #000;
+    line-height: 14px;
+    padding-top: 14px;
+    font-size: 20px;
+    text-shadow: 4px 4px 3px rgb(160 105 105 / 90%);
+    border: 1px solid #f2e8cc;
+    box-shadow: 4px 3px 6px 0px rgb(0 0 0 / 46%);
+}
+.location-container {
+    position: absolute;
+    display: inline-block;
+    width: 60%;
+    height: 120px;
+    background-color: rgba(255, 255, 255, 0.75);
+    top: 64%;
+    border-radius: 40px;
+    text-align: center;
+    line-height: 120px;
+}
+.location-container ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+.location-container li {
+    display: inline-block;
+    list-style-type: none;
+    height: 40%;
+}
+.location-container li a{
+    display: block;
+    font-size: 10px;
+    padding: 0 24px;
+    background-color: #f2e8cc;
+    line-height: 50px;
+    border-radius: 30px;
+}
+.location {
+    height: 100%;
+}
+.location-span {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.5px;
+}
+.city-span {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    text-transform: none !important;
+    letter-spacing: 0.5px;
+}
+#search-btn{
+    position: relative;
+    background: none;
+    font-size: 24px;
+    border: none;
+    top: -60%;
+}
